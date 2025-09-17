@@ -1,0 +1,37 @@
+body {
+    background-color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px rgb(22, 22, 22);
+  text-align: center;
+  color: #1b1b1b;
+  margin: 5px;
+}
+.center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px;
+      }
+#banner {
+     color: rgb(39, 125, 7);
+     font-size: large;
+}
+#clock {
+    background-color: yellow;
+    min-width: 150px;
+    min-height: 50px;
+    margin: 10px;
+    text-align: center;
+}
